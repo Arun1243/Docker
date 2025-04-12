@@ -1,0 +1,43 @@
+do
+vagrant up
+vagrant ssh
+
+    1  apt install docker.io
+    2  docker --version
+    3  docker images
+    4  docker ps -a
+    5  docker pull httpd
+    6  docker images
+    7  docker ps
+    9  docker run -itd --name webserver -p "8081:80" httpd
+   10  docker ps
+   14  ip addr
+   15  docker ps
+   16  docker exec -it ed5ee950cb15 /bin/bash
+   19  exit
+   20  apt-get update
+   21  docker ps
+   22  docker ps -a
+   23  docker start
+   24  docker start ed5ee950cb15
+   26  ip address
+  
+    1  cd htdocs/
+    2  cat index.html
+    4  apt-get update
+    5  apt install wget unzip -y
+    6  wget https://www.tooplate.com/zip-templates/2108_dashboard.zip
+    7  unzip 2108_dashboard.zip
+    8  cd 2108_dashboard
+    9  cp -r * /usr/local/apache2/htdocs
+
+
+docker tag karan arung1243/arung1243
+
+docker login
+
+dummyemail1403@gmail.com
+123456789
+
+docker push Arung1243/karanimage 
+exit
